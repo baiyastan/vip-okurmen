@@ -1,3 +1,158 @@
-.container {
-  width: 200px;
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.wrapper {
+    margin: 0 auto;
+    width: 1280px;
+    height: 662px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;}
+.bg-header {
+    border-radius: 0 0 30px 30px;
+    width: 1220px;
+    height: 89px;
+    box-shadow: 0px 4px 4px 0px rgb(186, 186, 186);
+    background: rgb(0, 102, 51);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bg-header img{
+    margin-left: 40px;
+}
+
+.rectange77 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 562px;
+    margin-right: 53px;
+}
+.phone{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+}
+.rectange77 button{
+    width: 170px;
+height: 45px;
+border-radius: 5px;
+background: rgb(255, 255, 255);
+border:none;
+}
+.header-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1135px;
+height: 19px;
+margin-right: 42px;
+margin-left: 43px;
+margin-top: 15px;
+}
+.header-menu h1{
+    color: rgb(0, 0, 0);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: uppercase;
+}
+.header-menu h2{
+    width: 7px;
+height: 7px;
+border-radius: 900px;
+
+background: rgb(0, 102, 51);
+}
+.banner2{
+    position: relative;
+}
+.title{
+   
+ margin: 0 auto;
+position: absolute;
+width: 1280px;
+height: 364px;
+top: 146px;
+bottom: 100px;
+}
+.title h1{
+    color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 26px;
+font-weight: 600;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+}
+.title h2{
+    color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 66px;
+font-weight: 600;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: center;
+border: none;
+}
+.title button{
+    width: 250px; 
+height: 65px;
+border: none;
+
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 24px;
+font-weight: 600;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+border-radius: 5px;
+margin-left: 515px;
+background: rgb(0, 102, 51);
+}
+.title button:hover{
+    background: rgb(127, 178, 152);
+    border: none;
+
+}
+
+.cards3{
+    width: 1140px;
+height: 210px;
+margin-top: -50px;
+margin-left: 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap:24px;
+}
+
+.rectang{
+
+width: 1140px;
+z-index: 55;
+margin-top: 300px;
+margin-left: 68px;
+background-color: rgba(255, 255, 255, 0.844);
+height: 100px;
 }
