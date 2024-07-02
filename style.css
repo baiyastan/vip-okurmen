@@ -1,33 +1,164 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-.wrapper {
-    margin: 0 auto;
-    width: 1280px;
-    height: 662px;
-}
 
-*,
-*::before,
-*::after {
-    padding: 0;
-    margin: 0;
-    border: 0;
-    box-sizing: border-box;
+
+a {
+  text-decoration: none;
 }
 
 ul,
 ol,
 li {
-    list-style: none;
+  list-style: none;
 }
 
+img {
+  vertical-align: top;
+}
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    font-weight: inherit;
-    font-size: inherit;}
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+.wrapper {
+  width: 1280px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.container {
+  width: 1220px;
+  height: 100%;
+  margin: 0 auto;
+  /* border: 1px solid black; */
+}
+.pisture {
+  background: url(./assets/image/01.png);
+  width: 1220px;
+  height: 829px;
+  background: rgba(0, 0, 0, 0.5), url(bg-2);
+  position: relative;
+}
+.Roofing {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* Rectangle 169 */
+  width: 1220px;
+  height: 133px;
+  position: absolute;
+  right: px;
+  top: 179px;
+  background: rgba(0, 0, 0, 0.6);
+}
+.Roofing-title span {
+  color: rgb(0, 102, 51);
+}
+.Roofing-title {
+  font-family: Fira Sans;
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  width: 500px;
+}
+.Roofing-text {
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 400px;
+}
+.cardComment {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  position: absolute;
+  gap: 20px;
+}
+.card {
+  position: relative;
+  top: 359px;
+  left: 45px;
+  display: flex;
+}
+.card-animation {
+  /* Rectangle 183 */
+  width: 267px;
+  height: 248px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 52px;
+  background-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  border-left: 5px solid rgb(0, 102, 51);
+  box-shadow: 0px 0px 10px 0px rgb(207, 207, 207);
+}
+.card-image {
+  background: url(./assets/svg/01.png);
+  /* Vector */
+  position: absolute;
+  width: 302px;
+  height: 235px;
+  left: -32px;
+  top: 15px;
+  right: 0px;
+}
+.card-number {
+  color: rgba(0, 102, 51, 0.2);
+  font-family: Fira Sans;
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  position: absolute;
+  left: 55px;
+  top: 10px;
+}
+.card-avator {
+  /* ✨ roof siding corner */
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 202px;
+  top: 4px;
+}
+.card-title {
+  position: absolute;
+  top: 134px;
+  left: 30px;
+}
+.card-title h3 {
+  color: rgb(0, 0, 0);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.card-title p {
+  color: rgb(0, 0, 0);
+  font-family: Fira Sans;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 190px;
+  padding-top: 4px;
+}
+
 .bg-header {
     border-radius: 0 0 30px 30px;
     width: 1220px;
