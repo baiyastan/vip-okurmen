@@ -150,6 +150,12 @@ background: rgb(0, 102, 51);
     border: none;
 
 }
+.cards3 hr{
+  width: 5px;
+  height: 200px;
+  background-color: green;
+
+}
 
 .cards3{
     width: 1140px;
@@ -159,7 +165,7 @@ margin-left: 20px;
 display: flex;
 justify-content: space-between;
 align-items: center;
-gap:24px;
+gap:20px;
 }
 
 .rectang{
